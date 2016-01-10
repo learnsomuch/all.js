@@ -13,11 +13,11 @@ title: all.js
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2 class="ui header">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
         </h2>
       </li>
           <p>{{ post.content }}</p>
-      <a class="ui large button post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+      <a class="ui large button post-link" href="{{ post.url | prepend: site.url }}">Read More</a>
       {% endfor %}
     </ul>
     </div>
