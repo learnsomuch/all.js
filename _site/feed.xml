@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>all.js</title>
+    <description>all.js - A JS library to create, generate, modify, identify, verify and trim stuff.</description>
+    <link>http://learnsomuch.github.io/all.js//</link>
+    <atom:link href="http://learnsomuch.github.io/all.js//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 10 Jan 2016 21:28:26 +0100</pubDate>
+    <lastBuildDate>Sun, 10 Jan 2016 21:28:26 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Welcome to all.js</title>
+        <description>&lt;p&gt;all.js is a JS library to create, generate, modify, identify, verify and trim stuff.&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://github.com/learnsomuch/all.js/blob/master/README.md&quot;&gt;all.js docs&lt;/a&gt; for more info on how to get the most out of all.js. File all bugs/feature requests at &lt;a href=&quot;https://github.com/learnsomuch/all.js&quot;&gt;all.js GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;License MIT 2016.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 10 Jan 2016 21:00:00 +0100</pubDate>
+        <link>http://learnsomuch.github.io/all.js//all.js/initial/commit/2016/01/10/welcome-to-allJS.html</link>
+        <guid isPermaLink="true">http://learnsomuch.github.io/all.js//all.js/initial/commit/2016/01/10/welcome-to-allJS.html</guid>
+        
+        
+        <category>all.js</category>
+        
+        <category>initial</category>
+        
+        <category>commit</category>
+        
+      </item>
+    
+  </channel>
+</rss>

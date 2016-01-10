@@ -1,0 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: all.js
+email: sankar@learnsomuch.com
+description: all.js - A JS library to create, generate, modify, identify, verify and trim stuff.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://learnsomuch.github.io/all.js/" # the base hostname & protocol for your site
+twitter_username: sankarbb
+github_username:  learnsomuch
+
+# Build settings
+markdown: kramdown

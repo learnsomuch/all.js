@@ -1,0 +1,32 @@
+---
+layout: default
+title: all.js
+---
+
+<div class="home" id="blog">
+
+  <div class="ui vertical stripe segment">
+    <div class="ui text container">
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2 class="ui header">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+          <p>{{ post.content }}</p>
+      <a class="ui large button post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+      {% endfor %}
+    </ul>
+    </div>
+  </div>
+
+</div>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="semantic-ui/dist/semantic.min.js"></script>
+<script src="js/jquery.typer.js"></script>
+<script src="js/main.js"></script>
