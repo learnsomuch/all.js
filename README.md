@@ -2,7 +2,7 @@ all.js
 =====
 Version 0.0.1 (Alpha)
 
-Official website: [learnsomuch.github.io/all.js](learnsomuch.github.io/all.js)
+Official website: [all.js.org](all.js.org)
 
 A JS library to create, generate, modify, identify, verify and trim stuff.
 
