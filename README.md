@@ -2,7 +2,7 @@ all.js
 =====
 Version 0.0.1 (Alpha)
 
-Official website: [all.js.org](all.js.org)
+Official website: [all.js.org](http://all.js.org)
 
 A JS library to create, generate, modify, identify, verify and trim stuff.
 
