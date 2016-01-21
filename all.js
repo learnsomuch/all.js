@@ -15,25 +15,26 @@
  	// API for Generate
 
  	// Initialising uppercase, lowercase chars, numbers, symbols and combination of others.
- 	all.u = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
- 	all.l = 'abcdefghijklmnopqrstuvwxyz';
- 	all.n = '0123456789';
- 	all.s = '~`!@#$%^&*()_+-={}[]:";\'<>?,./|\\';
- 	all.ul = u + l;
- 	all.un = u + n;
- 	all.us = u + s;
- 	all.ln = l + n;
- 	all.ls = l + s;
- 	all.ns = n + s;
- 	all.uln = u + l + n;
- 	all.ulns = u + l + n + s;
+ 	var u = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+ 	var l = 'abcdefghijklmnopqrstuvwxyz';
+ 	var n = '0123456789';
+ 	var s = '~`!@#$%^&*()_+-={}[]:";\'<>?,./|\\';
+ 	var ul =  lu = u + l;
+ 	var un =  nu = u + n;
+ 	var us =  su = u + s;
+ 	var ln =  nl = l + n;
+ 	var ls =  sl = l + s;
+ 	var ns =  sn = n + s;
+ 	var uln = lnu = nlu = u + l + n;
+ 	var uls = lsu = slu = u + l + s;
+ 	var uns = nsu = sun =  u + n + s;
+ 	var lns = nsl = sln = l + n + s;
+ 	var ulns = lnsu = nsul = suln = u + l + n + s;
 
   	// Generate random string with the length and input passed as an arugement to function
   	// For eg. all.gstring(21, all.ulns); // output will be "D*Iz?'LfLM"fW\d%`iSE"" input can be single or combination of others
 	all.gstring = function gstring(length, input) {
     	var output = "";
-    	var available = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
 	    for (var i=0; i<length; i++) {
 	      output = output + input.charAt(Math.floor(Math.random() * input.length));
 	    }
