@@ -12,25 +12,14 @@ A JS library to create, generate, modify, identify, verify and trim stuff.
 
 ### Generate
 
-* To generate a string of length specified in arguments.
+* To generate a alpha numeric string of length and input specified in arguments. length is the size or number of characters in a string. Whereas input can be u (Uppercase), l(Lowercase), n(Numbers), s(Symbols). 
  
 
-`all.gstring(length);`
+`all.grandom(length, input);`
 
-Example: `all.gstring(5);`
+Example: `all.gstring(5,u);`
 
-=> `"pzsPl"`
-
-
-
-* To generate a number of length specified in arguments. You can specify upto 21 for now.
-
-
-`all.gnum(length);`
-
-Example: `all.gnum(20);`
-
-=> `99695065775886170000`
+=> `"PZSQL"`
 
 
 * To generate a integer based on range or generate a number below the specified number in arguments.
