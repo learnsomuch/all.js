@@ -41,11 +41,6 @@
 	    return output;
   	}
 
-  	// Generate random integer with the length passed as an argument to function (max. 21)
-  	all.gnum = function gnum(length) {
-    	return Math.floor(Math.pow(10, length-1) + Math.random() * (Math.pow(10, length) - Math.pow(10, length-1) - 1));
-  	}
-
   	// Generate random integer within a range or below a certain numner. This can be passed as an argument
   	all.gint = function gint(a, b) {
   		if (arguments.length === 1) {
