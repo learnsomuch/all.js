@@ -32,8 +32,8 @@
  	var ulns = lnsu = nsul = suln = u + l + n + s;
 
   	// Generate random string with the length and input passed as an arugement to function
-  	// For eg. all.gstring(21, all.ulns); // output will be "D*Iz?'LfLM"fW\d%`iSE"" input can be single or combination of others
-	all.gstring = function grandom(length, input) {
+  	// For eg. all.grandom(21, all.ulns); // output will be "D*Iz?'LfLM"fW\d%`iSE"" input can be single or combination of others
+	all.grandom = function grandom(length, input) {
     	var output = "";
 	    for (var i=0; i<length; i++) {
 	      output = output + input.charAt(Math.floor(Math.random() * input.length));
