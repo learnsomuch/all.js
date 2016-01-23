@@ -1,6 +1,6 @@
 // all.js (Alpha) version 0.0.1
 // Author: Bheemarasetty Bhulok Sankar
-// Docs & Web: https://learnsomuch.github.io/all.js
+// Docs & Web: http://all.js.org
 
 ;(function() {
   	// Initializing the main object as a window in the browser
