@@ -13,33 +13,27 @@
  	main.all = all;
 
  	// API for Generate
-
- 	// Initialising uppercase, lowercase chars, numbers, symbols and combination of others.
- 	var u = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
- 	var l = 'abcdefghijklmnopqrstuvwxyz';
- 	var n = '0123456789';
- 	var s = '~`!@#$%^&*()_+-={}[]:";\'<>?,./|\\';
- 	var ul =  lu = u + l;
- 	var un =  nu = u + n;
- 	var us =  su = u + s;
- 	var ln =  nl = l + n;
- 	var ls =  sl = l + s;
- 	var ns =  sn = n + s;
- 	var uln = lnu = nlu = u + l + n;
- 	var uls = lsu = slu = u + l + s;
- 	var uns = nsu = sun =  u + n + s;
- 	var lns = nsl = sln = l + n + s;
- 	var ulns = lnsu = nsul = suln = u + l + n + s;
-
-  	// Generate random string with the length and input passed as an arugement to function
-  	// For eg. all.grandom(21, all.ulns); // output will be "D*Iz?'LfLM"fW\d%`iSE"" input can be single or combination of others
-	all.grandom = function grandom(length, input) {
-    	var output = "";
-	    for (var i=0; i<length; i++) {
-	      output = output + input.charAt(Math.floor(Math.random() * input.length));
-	    }
-	    return output;
-  	}
+ 	var init_grandom = {
+   		"u": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+   		"l": "abcdefghijklmnopqrstuvwxyz",
+   		"n": "0123456789",
+   		"s": '~`!@#$%^&*()_+-={}[]:";\'<>?,./|\\'
+	};
+ 	
+	// Generate random alpha numeric string with a user specific length and input.
+	// eg. grandom(10, "snl"); //output: 
+ 	all.grandom = function grandom(length, input) {
+  		result = "";
+  		output = "";
+  
+  		for (var i = 0, len = input.length; i < len; i++) {
+    		result += init_grandom[input[i]];
+  		}
+  		for (var j=0; j<length; j++) {
+	  		output = output + result.charAt(Math.floor(Math.random() * result.length));
+		}
+  		return output;
+	}
 
   	// Generate random integer within a range or below a certain numner. This can be passed as an argument
   	all.gint = function gint(a, b) {
@@ -49,9 +43,6 @@
   		}
   		return Math.floor(Math.random() * (b - a + 1) + a);
   	}
-
-  	// Generate random alpha-numberic string with the length passed as an argument.
-  	// Considering strings with uppercase lowe
 
 }.call(this));
 // End of all.js
