@@ -12,15 +12,22 @@ A JS library to create, generate, modify, identify, verify and trim stuff.
 
 ### Generate
 
-* To generate a alpha numeric string of length and input specified in arguments. length is the size or number of characters in a string. Whereas input can be u (Uppercase), l(Lowercase), n(Numbers), s(Symbols). 
+* To generate a alpha numeric string of length and input specified in arguments. length is the size or number of characters in a string. Whereas input can be u (Uppercase), l(Lowercase), n(Numbers), s(Symbols). You can use any combination to generate a string. For example, if you want to use Uppercase, symbols and numbers together to form a string with a length of 8. To implement this use case, all.grandom(8, "usn"); // output: "S"VV7:/X". 
  
 
 `all.grandom(length, input);`
 
-Example: `all.gstring(5,u);`
+Example: `all.grandom(5, "u");`
 
 => `"PZSQL"`
 
+Similarly, you can generate only numbers or any combination for that matter. 
+
+`all.grandom(8, "n");`
+
+=>  `"02469105"`
+
+Real use case scenario for this grandom is to generate password for a user. 
 
 * To generate a integer based on range or generate a number below the specified number in arguments.
  
