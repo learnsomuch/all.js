@@ -35,7 +35,8 @@
   		return output;
 	}
 
-  	// Generate random integer within a range or below a certain numner. This can be passed as an argument
+  	// Generate random integer within a range or below a certain number. 
+  	// eg. all.gint(3,5); //output: 4
   	all.gint = function gint(a, b) {
   		if (arguments.length === 1) {
     			b = a;
