@@ -1,6 +1,6 @@
 all.js
 =====
-Version 0.0.1 (Alpha) - DO NOT USE FOR PRODUCTION. This library is heavily under development and testing phase.
+Version 0.0.1 (Alpha) - DO NOT USE FOR PRODUCTION YET. This library is heavily under development and testing phase.
 
 Official website: [all.js.org](http://all.js.org)
 
