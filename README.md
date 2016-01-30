@@ -6,6 +6,11 @@ Official website: [all.js.org](http://all.js.org)
 
 A JS library to create, generate, modify, identify, verify and trim stuff.
 
+## Installation
+Include all.js file and you are ready to use its APIs.
+
+<script type="text/javascript" src="all.js"></script>
+
 ## API's Planned:
 
 ### Create 
