@@ -56,6 +56,16 @@ Example: `all.gint(50);`
 
 ### Identify
 
+This function is to identify whether a certain variable or the value is either string, boolean, number or an object.
+
+`all.identify(input);`
+
+Example : `all.identify(new String("a"));` Returns `"object"`
+
+Similarly, `all.identify("a");` Returns `"string"`, `all.identify(123);` Returns `"number"` and `all.identify(true);` Returns 
+`"boolean"`.
+
+
 ### Verify
 
 ### Trim
