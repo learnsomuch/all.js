@@ -45,5 +45,10 @@
   		return Math.floor(Math.random() * (b - a + 1) + a);
   	}
 
+  	// Identify the user input or a value of a variable.
+  	all.identify = function identify(input) {
+  		return typeof input;
+  	}
+
 }.call(this));
 // End of all.js
