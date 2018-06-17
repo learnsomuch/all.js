@@ -70,9 +70,9 @@ Similarly, `all.identify("a");` Returns `"string"`, `all.identify(123);` Returns
 
 ### Trim
 
-####Contributing:
+#### Contributing:
 Thanks for considering to contribute.
 
-####License:
+#### License:
 MIT 2016
 
